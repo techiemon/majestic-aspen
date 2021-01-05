@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
+import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 const Hero = ({ contentModuleId }) => {
-    
+    const intl = useIntl()
     const data = useStaticQuery(graphql`
         query {
             allContentfulLayoutHero {
@@ -37,6 +38,7 @@ const Hero = ({ contentModuleId }) => {
                     <h2 className="hero__tagline-title" data-sal="fade">{ content.node.heading }</h2>
                     <p className="hero__tagline-subtitle" data-sal="fade" data-sal-delay="100">{ content.node.subheading }</p>
                     <p className="hero__tagline-text" data-sal="fade" data-sal-delay="200">{ content.node.description.description }</p>
+                    <p className="hero__tagline-text">{intl.formatMessage({ id: "example" })}</p>
                     <a href={ content.node.ctaUrl }><button className="btn btn--primary mt-8" data-sal="fade" data-sal-delay="300">{ content.node.ctaText }</button></a>
                 </div>
             </div>
