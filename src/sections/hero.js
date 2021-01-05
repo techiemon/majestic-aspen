@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl, useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 const Hero = ({ contentModuleId }) => {
     const intl = useIntl()
@@ -30,7 +30,7 @@ const Hero = ({ contentModuleId }) => {
     `);
 
     const content = data.allContentfulLayoutHero.edges.find(edge => edge.node.id === contentModuleId);
-
+console.log('hum data', data);
     return (
         <section className="hero container section mx-auto">
             <div className="hero__tagline">
@@ -53,4 +53,4 @@ Hero.propTypes = {
     contentModuleId : PropTypes.string.isRequired
 }
 
-export default Hero;
+export default injectIntl(Hero);
