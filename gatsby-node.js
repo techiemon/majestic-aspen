@@ -45,7 +45,7 @@ exports.createPages = ({ graphql, actions }) => {
         return;
       }
       createPage({
-        path: `/${edge.node.node_locale}/index.html`,
+        path: `/${edge.node.node_locale}/`,
         component: layoutTemplate,
         context: {
           slug: edge.node.slug,
