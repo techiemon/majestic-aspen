@@ -26,26 +26,42 @@ export const query = graphql`
                 ... on Node {
                     id
                 }
+                ... on ContentfulLayoutHero {
+                    id
+                    heading
+                    subheading
+                    description {
+                        description
+                    }
+                    ctaText
+                    ctaUrl
+                    image {
+                        fluid(quality: 100) {
+                            ...GatsbyContentfulFluid
+                        }
+                    }
+                  }
             }
         }
     }
 `;
 
 export default function PageTemplate(props) {
-    const { data } = props;
+    const { data, pageContext } = props;
     const title = data.contentfulLayout.title;
     const description = data.contentfulLayout.description;
     const menus = data.contentfulLayout.menu;
     const contentModule = data.contentfulLayout.contentModule;
+
 console.log('template data', data);
-console.log('template props', props)
+console.log('template pageContext', pageContext)
     return (
         <Layout menus={ menus }>
             <SEO title={ title } description={ description } />
             {
                 contentModule && contentModule.length > 0 &&
                 contentModule.map(content => (
-                    <Section contentModuleId={ content.id } type={ content.__typename } key={content.id}/>
+                    <Section contentModuleId={ content.id } content={content} type={ content.__typename } key={content.id}/>
                 ))
             }
         </Layout>
