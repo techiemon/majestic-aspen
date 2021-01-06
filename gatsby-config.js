@@ -48,18 +48,25 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-intl`,
+      resolve: `gatsby-plugin-intl-contentful`,
       options: {
-        // language JSON resource path
-        path: `${__dirname}/src/intl`,
-        // supported language
-        languages: [`en`, `es`],
-        // language file path
+        // default language
         defaultLanguage: `en`,
-        // option to redirect to `/en` when connecting `/`
+        // option to redirect to `/ko` when connecting `/`
         redirect: true,
-      },
+        // Contentful space credentials
+        contentfulSpaceId: process.env.CONTENTFUL_SPACE_ID,
+        contentfulAccessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+
+        // OPTIONAL!
+        // messageContentType
+        messageContentType: "message",
+        // Your Contentful message Content Type key field id
+        fieldKey: "key", 
+        // Your Contentful message Content Type value field id
+        fieldValue: "value", 
+      }
     },
-    `@contentful/gatsby-transformer-contentful-richtext`,
+    `@contentful/gatsby-transformer-contentful-richtext`
   ],
 };

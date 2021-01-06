@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import { injectIntl, useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl, useIntl, Link, FormattedMessage } from "gatsby-plugin-intl-contentful"
 
 const Hero = ({ contentModuleId }) => {
     const intl = useIntl()
