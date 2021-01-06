@@ -1,3 +1,5 @@
+const languages = require('./src/data/languages');
+
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
@@ -7,6 +9,7 @@ module.exports = {
     title: `Zenii`,
     description: `A One-page Gatsby starter built with Tailwindcss and  Postcss.`,
     author: `The Bakerdev`,
+    languages
   },
   plugins: [
     {
@@ -41,31 +44,19 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyForNull: 'any',
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: false
+      }
+    },
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
-    },
-    {
-      resolve: `gatsby-plugin-intl-contentful`,
-      options: {
-        // default language
-        defaultLanguage: `en`,
-        // option to redirect to `/ko` when connecting `/`
-        redirect: true,
-        // Contentful space credentials
-        contentfulSpaceId: process.env.CONTENTFUL_SPACE_ID,
-        contentfulAccessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-
-        // OPTIONAL!
-        // messageContentType
-        messageContentType: "message",
-        // Your Contentful message Content Type key field id
-        fieldKey: "key", 
-        // Your Contentful message Content Type value field id
-        fieldValue: "value", 
-      }
     },
     `@contentful/gatsby-transformer-contentful-richtext`
   ],

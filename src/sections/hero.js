@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import { injectIntl, useIntl, Link, FormattedMessage } from "gatsby-plugin-intl-contentful"
 
-const Hero = ({ contentModuleId }) => {
-    const intl = useIntl()
+const Hero = (props) => {
+    console.log('Hero props', props)
+    const { contentModuleId} = props;
     const data = useStaticQuery(graphql`
-        query AllContentfulLayoutHero($locale: String) {
-            allContentfulLayoutHero(filter:{ node_locale:{ eq: $locale}}) {
+        query {
+            allContentfulLayoutHero {
                 edges {
                     node {
                         id
@@ -31,6 +31,8 @@ const Hero = ({ contentModuleId }) => {
 
     const content = data.allContentfulLayoutHero.edges.find(edge => edge.node.id === contentModuleId);
 console.log('hum data', data);
+console.log('contentModuleId', contentModuleId);
+// console.log('context', context)
     return (
         <section className="hero container section mx-auto">
             <div className="hero__tagline">
@@ -38,7 +40,6 @@ console.log('hum data', data);
                     <h2 className="hero__tagline-title" data-sal="fade">{ content.node.heading }</h2>
                     <p className="hero__tagline-subtitle" data-sal="fade" data-sal-delay="100">{ content.node.subheading }</p>
                     <p className="hero__tagline-text" data-sal="fade" data-sal-delay="200">{ content.node.description.description }</p>
-                    <p className="hero__tagline-text">{intl.formatMessage({ id: "example" })}</p>
                     <a href={ content.node.ctaUrl }><button className="btn btn--primary mt-8" data-sal="fade" data-sal-delay="300">{ content.node.ctaText }</button></a>
                 </div>
             </div>
@@ -53,4 +54,4 @@ Hero.propTypes = {
     contentModuleId : PropTypes.string.isRequired
 }
 
-export default injectIntl(Hero);
+export default Hero;
