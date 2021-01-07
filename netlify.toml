@@ -6,22 +6,22 @@ publish = "public"
 # All deploys from the main repository branch
 # will inherit these settings.
 [context.production.environment]
-  CONTENTFUL_ACCESS_TOKEN = PROD_CONTENTFUL_ACCESS_TOKEN
+  CONTENTFUL_ACCESS_TOKEN = "PROD_CONTENTFUL_ACCESS_TOKEN"
 
 # Deploy Preview context:
 # All deploys generated from a pull/merge request
 # will inherit these settings.
 [context.deploy-preview.environment] 
-  CONTENTFUL_ACCESS_TOKEN = PROD_CONTENTFUL_ACCESS_TOKEN
+  CONTENTFUL_ACCESS_TOKEN = "PROD_CONTENTFUL_ACCESS_TOKEN"
 
 # Branch deploy context:
 # All deploys that are not from a pull/merge request
 # or from the production branch will inherit these settings.
 [context.branch-deploy]
-  CONTENTFUL_ACCESS_TOKEN = DEV_CONTENTFUL_ACCESS_TOKEN
+  CONTENTFUL_ACCESS_TOKEN = "DEV_CONTENTFUL_ACCESS_TOKEN"
 
 [context.dev.environment]
-  CONTENTFUL_ACCESS_TOKEN = DEV_CONTENTFUL_ACCESS_TOKEN
+  CONTENTFUL_ACCESS_TOKEN = "DEV_CONTENTFUL_ACCESS_TOKEN"
 
 [context.staging.environment]
-  CONTENTFUL_ACCESS_TOKEN = STAGING_CONTENTFUL_ACCESS_TOKEN
+  CONTENTFUL_ACCESS_TOKEN = "STAGING_CONTENTFUL_ACCESS_TOKEN"
