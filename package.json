@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "setup": "node ./bin/setup.js",
-    "build": "sed -i '' s/PROD_CONTENTFUL_ACCESS_TOKEN/${PROD_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i '' s/STAGING_CONTENTFUL_ACCESS_TOKEN/${STAGING_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i '' s/DEV_CONTENTFUL_ACCESS_TOKEN/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && cat netlify.toml && gatsby build",
+    "build": "sed -i s/PROD_CONTENTFUL_ACCESS_TOKEN/${PROD_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i s/STAGING_CONTENTFUL_ACCESS_TOKEN/${STAGING_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && cat netlify.toml && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
