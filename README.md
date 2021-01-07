@@ -1,6 +1,6 @@
 # Gastby Starter Zenii
 A One-page Gatsby starter built with Tailwindcss and  Postcss.
-Force Update 1
+Force Update 2
 ## Features
 - Styles are ure built using [Tailwindcss](https://tailwindcss.com/)
 - Css styles use [Postcss](https://postcss.org/)
