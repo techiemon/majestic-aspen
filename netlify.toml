@@ -1,5 +1,5 @@
 [build]
-command = "sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN_HOLDER/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && npm run build" 
+command = "node -p 'process.env' && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN_HOLDER/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && npm run build" 
 publish = "public"
 
 # Production context:
