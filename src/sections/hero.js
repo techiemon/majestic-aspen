@@ -1,42 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 
-const Hero = (props) => {
-    console.log('Hero props', props)
-    const { contentModuleId, content} = props;
-    
-    const node_locale = content.node_locale;
-    console.log('node_locale', content)
-
-
-    // let data = useStaticQuery(graphql`
-    //     query {
-    //         allContentfulLayoutHero {
-    //             edges {
-    //                 node {
-    //                     id
-    //                     heading
-    //                     subheading
-    //                     description {
-    //                         description
-    //                     }
-    //                     ctaText
-    //                     ctaUrl
-    //                     image {
-    //                         fluid(quality: 100) {
-    //                             ...GatsbyContentfulFluid
-    //                         }
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // `);
-
-    // const content = data.allContentfulLayoutHero.edges.find(edge => edge.node.id === contentModuleId);
-// console.log('hum data', data);
-console.log('contentModuleId', contentModuleId);
+const Hero = ({ content }) => {
 
     return (
         <section className="hero container section mx-auto">
@@ -56,8 +21,7 @@ console.log('contentModuleId', contentModuleId);
 };
 
 Hero.propTypes = {
-    contentModuleId : PropTypes.string.isRequired,
-    content: PropTypes.any,
+    content: PropTypes.object.isRequired,
 }
 
 export default Hero;

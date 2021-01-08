@@ -1,54 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import AboutItem from 'components/aboutItem';
 
-const About = ({ contentModuleId }) => {
-
-    const data = useStaticQuery(graphql`
-        query {
-            allContentfulLayoutAbout {
-                edges {
-                    node {
-                        id
-                        heading
-                        description {
-                            description
-                        }
-                        featureItem {
-                            id
-                            title
-                            icon
-                            description {
-                                description
-                            }
-                        }
-                        image {
-                            fluid(quality:100) {
-                                ...GatsbyContentfulFluid
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `);
-
-    const content = data.allContentfulLayoutAbout.edges.find(edge => edge.node.id === contentModuleId); 
+const About = ({ content }) => {
 
     return (
         <section id="about" className="about-us bg-gray">
             <div className="container section mx-auto">
                 <div className="about-us__content">
-                    <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
-                    <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{ content.node.description.description }</p>
+                    <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.heading }</h2>
+                    <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{ content.description.description }</p>
                     { 
-                        content.node.featureItem.length > 0 &&
+                        content.featureItem.length > 0 &&
                         <ul className="mt-10 md:ml-8">
                             {
-                                content.node.featureItem.map(feature => (
+                                content.featureItem.map(feature => (
                                     <AboutItem feature={ feature } key={ feature.id } />
                                 ))
                             }
@@ -57,7 +25,7 @@ const About = ({ contentModuleId }) => {
                 </div>
                 <div className="about-us__image">
                     <div className="mx-auto about-us__image-wrap" data-sal="slide-up" data-sal-delay="200" data-sal-duration="500">
-                        <Img fluid={ content.node.image.fluid } />
+                        <Img fluid={ content.image.fluid } />
                     </div>
                 </div>
             </div>
@@ -66,7 +34,7 @@ const About = ({ contentModuleId }) => {
 };
 
 About.propTypes = {
-    contentModuleId : PropTypes.string.isRequired
+    content: PropTypes.object.isRequired,
 }
 
 export default About;

@@ -19,7 +19,7 @@ const components = {
     PageNotFound
 };
 
-const Section = ({ contentModuleId, type, content }) => {
+const Section = ({ type, content }) => {
     const component = type.split('Layout')[1];
     
     if (typeof components[component] === 'undefined') {
@@ -27,13 +27,11 @@ const Section = ({ contentModuleId, type, content }) => {
     }
 
     return React.createElement(components[component],{
-        contentModuleId,
         content
     });
 }
 
 Section.prototype = {
-    contentModuleId: PropTypes.string.isRequired,
     content: PropTypes.any,
     type: PropTypes.string.isRequired
 }

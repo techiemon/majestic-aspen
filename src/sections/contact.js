@@ -1,34 +1,10 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import validation from 'utils/validation';
 
-const Contact = ({ contentModuleId }) => {
-
-    const data = useStaticQuery(graphql`
-        query {
-            allContentfulLayoutContact {
-                edges {
-                    node {
-                        id
-                        heading
-                        description {
-                            description
-                        },
-                        image {
-                            fluid(quality: 100) {
-                                ...GatsbyContentfulFluid
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `);
-
-    const content = data.allContentfulLayoutContact.edges.find(edge => edge.node.id === contentModuleId);
+const Contact = ({ content }) => {
 
     useEffect(() => {
         validation.init();
@@ -37,8 +13,8 @@ const Contact = ({ contentModuleId }) => {
     return (
         <section id="contact" className="contact container section mx-auto">
             <div className="contact__content">
-                <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
-                <p className="mb-4 w-full md:w-3/4" data-sal="slide-up" data-sal-easing="ease-in-cubic">{ content.node.description.description }</p>
+                <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.heading }</h2>
+                <p className="mb-4 w-full md:w-3/4" data-sal="slide-up" data-sal-easing="ease-in-cubic">{ content.description.description }</p>
                 <form id="contact_form" className="w-full md:w-3/4" noValidate data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">
                     <div className="input-group mb-2">
                         <label htmlFor="name">Name</label>
@@ -58,7 +34,7 @@ const Contact = ({ contentModuleId }) => {
             <div className="contact__image">
                 <div className="mx-auto" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
                     <div className="contact__image-wrap">
-                        <Img fluid={ content.node.image.fluid } alt="Contact" />
+                        <Img fluid={ content.image.fluid } alt="Contact" />
                     </div>
                 </div>
             </div>
@@ -67,7 +43,7 @@ const Contact = ({ contentModuleId }) => {
 };
 
 Contact.propTypes = {
-    contentModuleId : PropTypes.string.isRequired
+    content: PropTypes.object.isRequired,
 }
 
 export default Contact;
