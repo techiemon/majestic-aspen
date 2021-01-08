@@ -1,5 +1,5 @@
 [build]
-command = "sed -i s/PROD_CONTENTFUL_ACCESS_TOKEN/${PROD_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i s/STAGING_CONTENTFUL_ACCESS_TOKEN/${STAGING_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && cat netlify.toml && && npm run build" 
+command = "sed -i s/PROD_CONTENTFUL_ACCESS_TOKEN/$PROD_CONTENTFUL_ACCESS_TOKEN/g netlify.toml && sed -i s/STAGING_CONTENTFUL_ACCESS_TOKEN/$STAGING_CONTENTFUL_ACCESS_TOKEN/g netlify.toml && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN/$DEV_CONTENTFUL_ACCESS_TOKEN/g netlify.toml && npm run build" 
 publish = "public"
 
 # Production context:
