@@ -6,8 +6,8 @@
   "license": "0BSD",
   "scripts": {
     "setup": "node ./bin/setup.js",
-    "localbuild": "gatsby build",
-    "build": "node -p 'process.env' && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN_HOLDER/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && gatsby build",
+    "build": "gatsby build",
+    "sedbuild": "node -p 'process.env' && sed -i s/DEV_CONTENTFUL_ACCESS_TOKEN_HOLDER/${DEV_CONTENTFUL_ACCESS_TOKEN}/g netlify.toml && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
