@@ -131,17 +131,16 @@ export const query = graphql`
           }
         }
         ... on ContentfulLayoutPageNotFound {
-            id
-            heading
-            description {
-              description
-            }
-            buttonText
-            buttonUrl
-            image {
-              fluid(quality: 100) {
-                ...GatsbyContentfulFluid
-              }
+          id
+          heading
+          description {
+            description
+          }
+          buttonText
+          buttonUrl
+          image {
+            fluid(quality: 100) {
+              ...GatsbyContentfulFluid
             }
           }
         }
@@ -161,7 +160,7 @@ console.log('template data', data);
 console.log('template pageContext', pageContext)
     return (
         <Layout menus={ menus }>
-            <SEO title={ title } description={ description } />
+            <SEO title={ title } description={ description } lang={pageContext.node_locale} />
             {
                 contentModule && contentModule.length > 0 &&
                 contentModule.map(content => (
