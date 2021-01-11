@@ -50,7 +50,7 @@ const Header = ({ menus }) => {
 
   return (
     <header className="header container">
-      <Link to="/">
+      <Link to="/home">
         <img src={require("assets/images/logo.svg")} alt="site logo" />
       </Link>
       {mainMenu !== null && mainMenu !== undefined && (

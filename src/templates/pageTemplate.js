@@ -6,7 +6,7 @@ import { graphql } from 'gatsby';
 import Section from 'sections/section';
 
 export const query = graphql`
-  query($slug: String! = "/", $node_locale: String! = "en") {
+  query($slug: String! = "/home", $node_locale: String! = "en") {
     contentfulLayout(slug: { eq: $slug }, node_locale: { eq: $node_locale }) {
       id
       slug
