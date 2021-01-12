@@ -2664,16 +2664,16 @@
       },
       "fields": {
         "title": {
-          "en": "Homepage"
+          "en-US": "Homepage"
         },
         "slug": {
-          "en": "/home"
+          "en-US": "/home"
         },
         "description": {
-          "en": "Website's main page"
+          "en-US": "Website's main page"
         },
         "menu": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -2691,7 +2691,7 @@
           ]
         },
         "contentModule": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -2794,22 +2794,22 @@
       },
       "fields": {
         "heading": {
-          "en": "Get fast load speed"
+          "en-US": "Get fast load speed"
         },
         "subheading": {
-          "en": "Turn leads into customers monthly"
+          "en-US": "Turn leads into customers monthly"
         },
         "description": {
-          "en": "Ham hock spare ribs biltong beef ribs jerky capicola chuck pork belly swine. Picanha brisket hamburger alcatra salami venison turkey bresaola pork loin filet mignon."
+          "en-US": "Ham hock spare ribs biltong beef ribs jerky capicola chuck pork belly swine. Picanha brisket hamburger alcatra salami venison turkey bresaola pork loin filet mignon."
         },
         "ctaText": {
-          "en": "Know More"
+          "en-US": "Know More"
         },
         "ctaUrl": {
-          "en": "#about"
+          "en-US": "#about"
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -2875,13 +2875,13 @@
       },
       "fields": {
         "heading": {
-          "en": "About Us"
+          "en-US": "About Us"
         },
         "description": {
-          "en": "Andouille ball tip chislic sirloin jerky pig beef ribs brisket fatback ground round biltong bacon shoulder landjaeger. "
+          "en-US": "Andouille ball tip chislic sirloin jerky pig beef ribs brisket fatback ground round biltong bacon shoulder landjaeger. "
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -2890,7 +2890,7 @@
           }
         },
         "featureItem": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -2972,13 +2972,13 @@
       },
       "fields": {
         "title": {
-          "en": "Fast Service Delivery"
+          "en-US": "Fast Service Delivery"
         },
         "description": {
-          "en": "Meatball qui laboris buffalo drumstick prosciutto sed eiusmod."
+          "en-US": "Meatball qui laboris buffalo drumstick prosciutto sed eiusmod."
         },
         "icon": {
-          "en": "alarm_on"
+          "en-US": "alarm_on"
         }
       }
     },
@@ -3038,13 +3038,13 @@
       },
       "fields": {
         "title": {
-          "en": "Secured Apps"
+          "en-US": "Secured Apps"
         },
         "description": {
-          "en": "Chislic frankfurter kevin, strip steak chicken tongue tri-tip."
+          "en-US": "Chislic frankfurter kevin, strip steak chicken tongue tri-tip."
         },
         "icon": {
-          "en": "fingerprint"
+          "en-US": "fingerprint"
         }
       }
     },
@@ -3104,13 +3104,13 @@
       },
       "fields": {
         "title": {
-          "en": "Increased Leads"
+          "en-US": "Increased Leads"
         },
         "description": {
-          "en": "Leberkas brisket doner, ham cupim hamburger beef"
+          "en-US": "Leberkas brisket doner, ham cupim hamburger beef"
         },
         "icon": {
-          "en": "timeline"
+          "en-US": "timeline"
         }
       }
     },
@@ -3170,13 +3170,13 @@
       },
       "fields": {
         "heading": {
-          "en": "What our customers say"
+          "en-US": "What our customers say"
         },
         "description": {
-          "en": "Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!"
+          "en-US": "Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!"
         },
         "testimonials": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -3258,16 +3258,16 @@
       },
       "fields": {
         "name": {
-          "en": "Max Hunter"
+          "en-US": "Max Hunter"
         },
         "company": {
-          "en": "Bacon Inc"
+          "en-US": "Bacon Inc"
         },
         "comment": {
-          "en": "Ground round shank kielbasa, alcatra boudin ham meatloaf picanha. Beef ribs shoulder picanha chuck jerky hamburger."
+          "en-US": "Ground round shank kielbasa, alcatra boudin ham meatloaf picanha. Beef ribs shoulder picanha chuck jerky hamburger."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3333,16 +3333,16 @@
       },
       "fields": {
         "name": {
-          "en": "Eric Smith"
+          "en-US": "Eric Smith"
         },
         "company": {
-          "en": "Globeworks"
+          "en-US": "Globeworks"
         },
         "comment": {
-          "en": "Leberkas brisket doner, ham cupim hamburger beef capicola frankfurter kielbasa salami chuck shankle prosciutto ham hock."
+          "en-US": "Leberkas brisket doner, ham cupim hamburger beef capicola frankfurter kielbasa salami chuck shankle prosciutto ham hock."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3408,16 +3408,16 @@
       },
       "fields": {
         "name": {
-          "en": "Cindy Heartman"
+          "en-US": "Cindy Heartman"
         },
         "company": {
-          "en": "Ironavigation"
+          "en-US": "Ironavigation"
         },
         "comment": {
-          "en": "Pork loin turkey filet mignon, bacon frankfurter drumstick capicola cow biltong andouille. "
+          "en-US": "Pork loin turkey filet mignon, bacon frankfurter drumstick capicola cow biltong andouille. "
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3483,13 +3483,13 @@
       },
       "fields": {
         "heading": {
-          "en": "Our Services"
+          "en-US": "Our Services"
         },
         "description": {
-          "en": "Kevin tail porchetta ham hock bresaola pork belly. Venison sausage picanha beef t-bone pork loin chislic ground round tongue burgdoggen meatloaf meatball tenderloin cow shankle."
+          "en-US": "Kevin tail porchetta ham hock bresaola pork belly. Venison sausage picanha beef t-bone pork loin chislic ground round tongue burgdoggen meatloaf meatball tenderloin cow shankle."
         },
         "serviceItems": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -3578,13 +3578,13 @@
       },
       "fields": {
         "title": {
-          "en": "Website Analytics"
+          "en-US": "Website Analytics"
         },
         "description": {
-          "en": "T-bone porchetta flank, ball tip kielbasa shank pork fatback frankfurter alcatra bacon jerky."
+          "en-US": "T-bone porchetta flank, ball tip kielbasa shank pork fatback frankfurter alcatra bacon jerky."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3650,13 +3650,13 @@
       },
       "fields": {
         "title": {
-          "en": "Email Marketing"
+          "en-US": "Email Marketing"
         },
         "description": {
-          "en": "Pork pork chop pancetta short loin leberkas jerky pastrami hamburger chislic. "
+          "en-US": "Pork pork chop pancetta short loin leberkas jerky pastrami hamburger chislic. "
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3722,13 +3722,13 @@
       },
       "fields": {
         "title": {
-          "en": "Mobile Apps"
+          "en-US": "Mobile Apps"
         },
         "description": {
-          "en": "T-bone cupim pork loin porchetta frankfurter capicola doner kevin tongue ribeye cow ball tip jowl ground round chislic. "
+          "en-US": "T-bone cupim pork loin porchetta frankfurter capicola doner kevin tongue ribeye cow ball tip jowl ground round chislic. "
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3794,13 +3794,13 @@
       },
       "fields": {
         "title": {
-          "en": "Web Apps"
+          "en-US": "Web Apps"
         },
         "description": {
-          "en": "Venison sausage picanha beef t-bone pork loin chislic ground round tongue burgdoggen meatloaf meatball tenderloin cow shankle."
+          "en-US": "Venison sausage picanha beef t-bone pork loin chislic ground round tongue burgdoggen meatloaf meatball tenderloin cow shankle."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -3866,13 +3866,13 @@
       },
       "fields": {
         "heading": {
-          "en": "Pricing"
+          "en-US": "Pricing"
         },
         "description": {
-          "en": " Pork pork chop pancetta short loin leberkas jerky pastrami hamburger chislic."
+          "en-US": " Pork pork chop pancetta short loin leberkas jerky pastrami hamburger chislic."
         },
         "pricingPlans": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -3954,32 +3954,32 @@
       },
       "fields": {
         "title": {
-          "en": "Basic"
+          "en-US": "Basic"
         },
         "currency": {
-          "en": "$"
+          "en-US": "$"
         },
         "price": {
-          "en": 200
+          "en-US": 200
         },
         "perItem": {
-          "en": "mo"
+          "en-US": "mo"
         },
         "planFeatures": {
-          "en": [
+          "en-US": [
             "Shank strip steak",
             "Porchetta shankle",
             "Filet mignon jerky"
           ]
         },
         "buttonText": {
-          "en": "Contact Sales"
+          "en-US": "Contact Sales"
         },
         "buttonUrl": {
-          "en": "#"
+          "en-US": "#"
         },
         "featured": {
-          "en": false
+          "en-US": false
         }
       }
     },
@@ -4039,19 +4039,19 @@
       },
       "fields": {
         "title": {
-          "en": "Standard"
+          "en-US": "Standard"
         },
         "currency": {
-          "en": "$"
+          "en-US": "$"
         },
         "price": {
-          "en": 450
+          "en-US": 450
         },
         "perItem": {
-          "en": "mo"
+          "en-US": "mo"
         },
         "planFeatures": {
-          "en": [
+          "en-US": [
             "Shank strip steak",
             "Porchetta shankle",
             "Filet mignon jerky",
@@ -4059,13 +4059,13 @@
           ]
         },
         "buttonText": {
-          "en": "Contact Sales"
+          "en-US": "Contact Sales"
         },
         "buttonUrl": {
-          "en": "#"
+          "en-US": "#"
         },
         "featured": {
-          "en": true
+          "en-US": true
         }
       }
     },
@@ -4125,19 +4125,19 @@
       },
       "fields": {
         "title": {
-          "en": "Premium"
+          "en-US": "Premium"
         },
         "currency": {
-          "en": "$"
+          "en-US": "$"
         },
         "price": {
-          "en": 1000
+          "en-US": 1000
         },
         "perItem": {
-          "en": "mo"
+          "en-US": "mo"
         },
         "planFeatures": {
-          "en": [
+          "en-US": [
             "Shank strip steak",
             "Porchetta shankle",
             "Filet mignon jerky",
@@ -4146,13 +4146,13 @@
           ]
         },
         "buttonText": {
-          "en": "Contact Sales"
+          "en-US": "Contact Sales"
         },
         "buttonUrl": {
-          "en": "#"
+          "en-US": "#"
         },
         "featured": {
-          "en": false
+          "en-US": false
         }
       }
     },
@@ -4212,13 +4212,13 @@
       },
       "fields": {
         "heading": {
-          "en": "Contact Us"
+          "en-US": "Contact Us"
         },
         "description": {
-          "en": "T-bone porchetta flank, ball tip kielbasa shank pork fatback frankfurter alcatra bacon jerky."
+          "en-US": "T-bone porchetta flank, ball tip kielbasa shank pork fatback frankfurter alcatra bacon jerky."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -4284,25 +4284,25 @@
       },
       "fields": {
         "addressLine1": {
-          "en": "649 Washington St."
+          "en-US": "649 Washington St."
         },
         "addressLine2": {
-          "en": "Los Angeles, CA 90008"
+          "en-US": "Los Angeles, CA 90008"
         },
         "contactNumber": {
-          "en": "(541) 754-3010"
+          "en-US": "(541) 754-3010"
         },
         "email": {
-          "en": "hi@thebakerdev.com"
+          "en-US": "hi@thebakerdev.com"
         },
         "facebookUrl": {
-          "en": "https://www.facebook.com"
+          "en-US": "https://www.facebook.com"
         },
         "twitterUrl": {
-          "en": "https://www.twitter.com"
+          "en-US": "https://www.twitter.com"
         },
         "instagramUrl": {
-          "en": "https://www.instagram.com"
+          "en-US": "https://www.instagram.com"
         }
       }
     },
@@ -4362,16 +4362,16 @@
       },
       "fields": {
         "title": {
-          "en": "404"
+          "en-US": "404"
         },
         "slug": {
-          "en": "404"
+          "en-US": "404"
         },
         "description": {
-          "en": "404 page"
+          "en-US": "404 page"
         },
         "menu": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -4382,7 +4382,7 @@
           ]
         },
         "contentModule": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -4450,13 +4450,13 @@
       },
       "fields": {
         "heading": {
-          "en": "Page not found"
+          "en-US": "Page not found"
         },
         "description": {
-          "en": "Sorry, the page you are looking for cannot be found."
+          "en-US": "Sorry, the page you are looking for cannot be found."
         },
         "image": {
-          "en": {
+          "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
@@ -4465,10 +4465,10 @@
           }
         },
         "buttonText": {
-          "en": "Back"
+          "en-US": "Back"
         },
         "buttonUrl": {
-          "en": "/home"
+          "en-US": "/home"
         }
       }
     },
@@ -4528,13 +4528,13 @@
       },
       "fields": {
         "name": {
-          "en": "Main Menu"
+          "en-US": "Main Menu"
         },
         "type": {
-          "en": "primary"
+          "en-US": "primary"
         },
         "menuItems": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -4623,10 +4623,10 @@
       },
       "fields": {
         "title": {
-          "en": "About"
+          "en-US": "About"
         },
         "url": {
-          "en": "#about"
+          "en-US": "#about"
         }
       }
     },
@@ -4686,10 +4686,10 @@
       },
       "fields": {
         "title": {
-          "en": "Services"
+          "en-US": "Services"
         },
         "url": {
-          "en": "#services"
+          "en-US": "#services"
         }
       }
     },
@@ -4749,10 +4749,10 @@
       },
       "fields": {
         "title": {
-          "en": "Pricing"
+          "en-US": "Pricing"
         },
         "url": {
-          "en": "#pricing"
+          "en-US": "#pricing"
         }
       }
     },
@@ -4812,10 +4812,10 @@
       },
       "fields": {
         "title": {
-          "en": "Contact"
+          "en-US": "Contact"
         },
         "url": {
-          "en": "#contact"
+          "en-US": "#contact"
         }
       }
     },
@@ -4875,13 +4875,13 @@
       },
       "fields": {
         "name": {
-          "en": "Footer Menu"
+          "en-US": "Footer Menu"
         },
         "type": {
-          "en": "secondary"
+          "en-US": "secondary"
         },
         "menuItems": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -4963,10 +4963,10 @@
       },
       "fields": {
         "title": {
-          "en": "About"
+          "en-US": "About"
         },
         "url": {
-          "en": "#about"
+          "en-US": "#about"
         }
       }
     },
@@ -5026,10 +5026,10 @@
       },
       "fields": {
         "title": {
-          "en": "Services"
+          "en-US": "Services"
         },
         "url": {
-          "en": "#services"
+          "en-US": "#services"
         }
       }
     },
@@ -5089,10 +5089,10 @@
       },
       "fields": {
         "title": {
-          "en": "Pricing"
+          "en-US": "Pricing"
         },
         "url": {
-          "en": "#pricing"
+          "en-US": "#pricing"
         }
       }
     },
@@ -5152,10 +5152,10 @@
       },
       "fields": {
         "title": {
-          "en": "Contact"
+          "en-US": "Contact"
         },
         "url": {
-          "en": "#contact"
+          "en-US": "#contact"
         }
       }
     },
@@ -5215,13 +5215,13 @@
       },
       "fields": {
         "name": {
-          "en": "404 Menu"
+          "en-US": "404 Menu"
         },
         "type": {
-          "en": "secondary"
+          "en-US": "secondary"
         },
         "menuItems": {
-          "en": [
+          "en-US": [
             {
               "sys": {
                 "type": "Link",
@@ -5289,10 +5289,10 @@
       },
       "fields": {
         "title": {
-          "en": "Home"
+          "en-US": "Home"
         },
         "url": {
-          "en": "/home"
+          "en-US": "/home"
         }
       }
     }
@@ -5347,10 +5347,10 @@
       },
       "fields": {
         "title": {
-          "en": "hero"
+          "en-US": "hero"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/3kBeqghHAPwGIwO6khlbP/095d4f99fa152a442340577441e1c3a9/hero.svg",
             "details": {
               "size": 39870,
@@ -5414,10 +5414,10 @@
       },
       "fields": {
         "title": {
-          "en": "about"
+          "en-US": "about"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/18PzbwFUIycI8ReXDuVKsu/55182130ce40d00602f01814b9ce4917/about.svg",
             "details": {
               "size": 16313,
@@ -5481,10 +5481,10 @@
       },
       "fields": {
         "title": {
-          "en": "face1"
+          "en-US": "face1"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/12PQybIC9ExPpoV3qR6oqu/a860b49c8287d0b2f4e404e36bc1ea28/face1.jpg",
             "details": {
               "size": 15641,
@@ -5548,10 +5548,10 @@
       },
       "fields": {
         "title": {
-          "en": "face2"
+          "en-US": "face2"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/7tssErXhbLeuF5DsTAUgpv/b409378a82b969a026996d13590f4d43/face2.jpg",
             "details": {
               "size": 22905,
@@ -5615,10 +5615,10 @@
       },
       "fields": {
         "title": {
-          "en": "service1"
+          "en-US": "service1"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/3jF6EbY30Kvb4KP9pPydlO/4c131628f9caf85df1aa30a9245b3d8a/service1.png",
             "details": {
               "size": 9260,
@@ -5682,13 +5682,13 @@
       },
       "fields": {
         "title": {
-          "en": "service 2"
+          "en-US": "service 2"
         },
         "description": {
-          "en": "Bacon ipsum dolor amet biltong hamburger shankle, flank alcatra turkey pork belly. Jowl meatloaf pork loin, drumstick capicola tail pig."
+          "en-US": "Bacon ipsum dolor amet biltong hamburger shankle, flank alcatra turkey pork belly. Jowl meatloaf pork loin, drumstick capicola tail pig."
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/4YDZWbsnuC48ozyawSu82b/c91974d5d8715046b1fbcec03c0cde28/service2.png",
             "details": {
               "size": 7698,
@@ -5752,10 +5752,10 @@
       },
       "fields": {
         "title": {
-          "en": "service3"
+          "en-US": "service3"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/3rMlVVCsWOKV0YC4NUAKj4/ade86de15b954dd1872d3d470468345f/service3.png",
             "details": {
               "size": 10900,
@@ -5819,10 +5819,10 @@
       },
       "fields": {
         "title": {
-          "en": "service4"
+          "en-US": "service4"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/5vGPe9zWYTAQjd8FIrJMkE/222e22a59ead56b401b0205a40fa816f/service4.png",
             "details": {
               "size": 12272,
@@ -5886,10 +5886,10 @@
       },
       "fields": {
         "title": {
-          "en": "hero"
+          "en-US": "hero"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/3rdL7No5y5XeqwPy0fYUjP/da16e1aa9662f48f680d6d6632c0cf19/hero.png",
             "details": {
               "size": 31308,
@@ -5953,10 +5953,10 @@
       },
       "fields": {
         "title": {
-          "en": "about"
+          "en-US": "about"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/6NxcbCwwDnZOS0fQ3UTjOv/cfcea2f4bb23fff185a0d4ede6357b2b/about.png",
             "details": {
               "size": 18936,
@@ -6020,13 +6020,13 @@
       },
       "fields": {
         "title": {
-          "en": "Contact Us"
+          "en-US": "Contact Us"
         },
         "description": {
-          "en": "Ham rump doner turducken chislic flank kevin chuck venison hamburger pancetta ground round strip steak chicken."
+          "en-US": "Ham rump doner turducken chislic flank kevin chuck venison hamburger pancetta ground round strip steak chicken."
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/4LjjYLKqKiJqWQwI44vh5n/ae762546a5f038bc71e73b573c65a185/contact.png",
             "details": {
               "size": 22080,
@@ -6090,10 +6090,10 @@
       },
       "fields": {
         "title": {
-          "en": "face3"
+          "en-US": "face3"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/4MsfSbNISyI7O5jM8H9m6U/4d137962783c2535987ea4d086a2deef/face3.jpg",
             "details": {
               "size": 15191,
@@ -6157,10 +6157,10 @@
       },
       "fields": {
         "title": {
-          "en": "404"
+          "en-US": "404"
         },
         "file": {
-          "en": {
+          "en-US": {
             "url": "//images.ctfassets.net/p9ztf7mkb1tk/45QGWOkqEdP5DF8U2qyY4n/78d0899313519a8b6f8fbf5fde1264d5/404.png",
             "details": {
               "size": 29633,
@@ -6179,7 +6179,7 @@
   "locales": [
     {
       "name": "English (United States)",
-      "code": "en",
+      "code": "en-US",
       "fallbackCode": null,
       "default": true,
       "contentManagementApi": true,
