@@ -32,6 +32,7 @@
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sharp": "^2.11.2",
     "gatsby-source-contentful": "^4.4.0",
+    "gatsby-source-contentful-locales": "^1.0.3",
     "gatsby-source-filesystem": "^2.8.1",
     "gatsby-transformer-sharp": "^2.9.0",
     "glider-js": "^1.7.3",
