@@ -2667,7 +2667,7 @@
           "en-US": "Homepage"
         },
         "slug": {
-          "en-US": "/"
+          "en-US": "index.html"
         },
         "description": {
           "en-US": "Website's main page"
@@ -4365,7 +4365,7 @@
           "en-US": "404"
         },
         "slug": {
-          "en-US": "/404"
+          "en-US": "404"
         },
         "description": {
           "en-US": "404 page"
@@ -4468,7 +4468,7 @@
           "en-US": "Back"
         },
         "buttonUrl": {
-          "en-US": "/"
+          "en-US": "/index.html"
         }
       }
     },
@@ -5292,7 +5292,7 @@
           "en-US": "Home"
         },
         "url": {
-          "en-US": "/"
+          "en-US": "index.html"
         }
       }
     }
