@@ -10,4 +10,4 @@ import:
 models:
   layout:
     type: page
-    urlPath: "/{params.locale}{slug}"
+    urlPath: "/{params.locale}/{slug}"
