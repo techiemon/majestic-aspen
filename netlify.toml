@@ -7,11 +7,6 @@ package = 'netlify-plugin-contextual-env'
   [plugins.inputs]
   mode = 'prefix'
 
-[[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
-
 # Production context:
 # All deploys from the main repository branch
 # will inherit these settings.
