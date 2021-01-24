@@ -2667,7 +2667,7 @@
           "en-US": "Homepage"
         },
         "slug": {
-          "en-US": "index.html"
+          "en-US": "/"
         },
         "description": {
           "en-US": "Website's main page"
@@ -5292,7 +5292,7 @@
           "en-US": "Home"
         },
         "url": {
-          "en-US": "index.html"
+          "en-US": "/"
         }
       }
     }
