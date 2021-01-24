@@ -129,8 +129,8 @@ const Header = ({ menus, languages, currentLocale }) => {
 
       <div className="flex flex-row">
         <Wrapper className="relative" onSelection={languageSelect}>
-          <Button className="flex flex-row">
-            <span className="mr-2 text-sm pl-4 md:text-white">
+          <Button className="flex flex-row mt-4">
+            <span className="mr-2text-sm pl-4">
               {currentLocale}
             </span>{" "}
             <img
@@ -140,7 +140,7 @@ const Header = ({ menus, languages, currentLocale }) => {
             />
           </Button>
           <Menu
-            className="absolute bg-white p-4 rounded-md shadow-md mt-12 left-0 w-40 border border-black"
+            className="absolute bg-white p-4 rounded-md shadow-md mt-2 right-0 w-40 border border-black"
             id="language-dropdown"
           >
             <ul>{languagesMenu}</ul>
