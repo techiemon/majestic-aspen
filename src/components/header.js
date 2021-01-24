@@ -99,8 +99,8 @@ const Header = ({ menus, languages, currentLocale }) => {
 
   return (
     <header className="header relative flex" id="header">
-      <Link to="/home">
-        <img src={require("assets/images/logo.svg")} alt="site logo" />
+      <Link to="/">
+        <img width="115" height="58" src={require("assets/images/logo.svg")} alt="site logo" />
       </Link>
       {mainMenu !== null && mainMenu !== undefined && (
         <nav className="nav">
@@ -134,6 +134,7 @@ const Header = ({ menus, languages, currentLocale }) => {
               {currentLocale}
             </span>{" "}
             <img
+              width="26" height="7"
               className="pr-3"
               src={require("assets/images/arrow-down.svg")}
               alt="Arrow Down"
